@@ -25,10 +25,8 @@ public class CalculatorTest {
 		int actual = cal.subtract(a, b);
 		
 		int expected1 = 3087;
-		//int expected2 = -3087;
 		
 		assertEquals(expected1, actual);
-		//assertEquals(expected2, actual);
 	}
 	
 	@Test
